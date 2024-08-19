@@ -727,6 +727,9 @@
 
 extern crate core;
 
+/// Re-export the libtorch wrapper crate.
+pub use tch;
+
 mod common;
 pub mod models;
 pub mod pipelines;
